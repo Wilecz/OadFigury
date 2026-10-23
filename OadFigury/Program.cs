@@ -10,3 +10,8 @@ foreach (var f in figury)
     drawing.Adder(f);
 }
 Console.WriteLine($"Highest Figure: {drawing.Highest()?.Description()}");
+var list = new List<Animal> { new Dog(), new Animal() };
+foreach (var z in list)
+{
+    Console.WriteLine(z.Sound());
+}

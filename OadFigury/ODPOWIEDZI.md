@@ -1,4 +1,4 @@
-1.
+1 -
 	1) Circle: Area 3,14, Perimeter 6,28
 	Rectangle: Area 6,00, Perimeter 10,00
 
@@ -14,7 +14,7 @@
 	3. (ZA): nie można tworzyć ogólnych produktów.
 	   (PRZECIW): testy używające new Produkt{...} przestaną się kompilować.
 
-2.
+2 -
 	1) Samochód - Pojazd: Jest, samochód jest rodzajem pojazdu
 	2) Samochód - Silnik: Ma, samochód ma silnik
 	3) Zamówienie - Produkt: Ma, zamówienie ma produkt
@@ -23,3 +23,6 @@
 	6) Uczeń - Osoba: Jest, uczeń jest osobą
 	7) Kwadrat - Prostokąt: Jest, kwadrat jest rodzajem prostokąta
 	8) Koszyk - List<Produkt>: Ma, koszyk ma listę produktów
+
+2.1 -
+	
