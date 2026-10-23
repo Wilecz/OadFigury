@@ -4,3 +4,9 @@ foreach (var f in figury)
 {
     Console.WriteLine(f.Description());
 }
+var drawing = new Drawing();
+foreach (var f in figury)
+{
+    drawing.Adder(f);
+}
+Console.WriteLine($"Highest Figure: {drawing.Highest()?.Description()}");
